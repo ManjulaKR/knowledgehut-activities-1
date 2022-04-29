@@ -1,0 +1,28 @@
+/*
+    this is how you add comments
+*/
+.header {
+    display: grid;
+    grid-template-columns: auto;
+    border: 3px solid red;
+    padding :20px;
+    text-align: center;
+    border-radius:20px;
+}
+
+.main-content {
+    display:grid;
+    grid-template-columns: 300px 870px 300px;
+    column-gap:5px;
+    row-gap:10px;
+    margin-top:10px;
+
+}
+.main-content > div {
+    border: 3px solid blue;
+    height: 400px;
+    text-align:center;
+    padding: 5px;
+    border-radius:10px;
+}
+    
